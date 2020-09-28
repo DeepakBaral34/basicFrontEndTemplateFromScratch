@@ -1,0 +1,1130 @@
+.Landing-Page {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.img_hero-image {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 800px;
+  background: url("img/img-hero-image.jpg");
+  background-repeat: no-repeat;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.Mask {
+  position:absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 800px;
+  opacity: 0.7;
+  background-color: #406b55;
+
+}
+
+.bg_header {
+  position:absolute;
+  top: 51px;
+  left: 0px;
+  width: 100%;
+  height: 60px;
+  opacity: 0.1;
+  background-color: #0f1110;
+}
+
+.logo_frontend-ninja-top {
+  position: absolute;
+  top: 64px;
+  left: 8.0%;
+  width: 121px;
+  height: 35px;
+  background: url("img/logo-frontend-ninja_2.png");
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Home {
+  position:absolute;
+  top: 72px;
+  left: 71.04%;
+  width: 44px;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #70c919;
+  cursor: pointer;
+}
+
+.About {
+  position:absolute;;
+  top: 72px;
+  left: 76.86%;
+  width: 44px;
+  height: 21px;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Work {
+  position: absolute;
+  top: 72px;
+  left: 82.64%;
+  width: 37px;
+  height: 19px;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Contact {
+  position: absolute;
+  top: 72px;
+  left: 87.99%;
+  width: 3.96%;
+  height: 21px;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.Home:hover,.About:hover,.Work:hover,.Contact:hover {
+  font-size: 1.5vw;
+}
+
+.ic_search {
+  position: absolute;
+  top: 72px;
+  left: 94.65%;
+  width: 1.181%;
+  height: 17px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.ic_search:hover {
+  width: 1.5%;
+  height: 25px;
+}
+
+.Are-you-a-frontend-n {
+  position:absolute;
+  top: 310px;
+  left: 18.986%;
+  width: 70%;
+  height: 96px;
+  font-family: Roboto;
+  font-size: 5.649vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Frontend-ninjas-are {
+  position:absolute;
+  top: 435px;
+  left: 28.40%;
+  width: 43.33%;
+  height: 84px;
+  opacity: 0.7;
+  font-family: Roboto;
+  font-size: 1.389vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn_read-more_bg {
+  position: absolute;
+  width: 13.33%;
+  height: 67px;
+  border-radius: 4px;
+  box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.9);
+  background-color: #27ad6c;
+
+}
+
+.btn_read-more_bg:hover {
+  background-color: #87ceeb;
+  cursor: pointer;
+}
+
+.Apply-now {
+  position:absolute;
+  width: 6.5%;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.ic_arrow {
+  position: absolute;
+  width: 1.25%;
+  height: 18px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.What-you-should-have {
+  position:absolute;
+  top: 945px;
+  left: 33.50%;
+  width: 40%;
+  font-family: Roboto;
+  font-size: 3.333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.What-you-should-have-image {
+  position:absolute;
+  top: 1077px;
+  height: 196px;
+  width: 100%;
+}
+
+.img_requirements_1 {
+  position: absolute;
+  float: left;
+  left: 65.97%;
+  width: 20.83%;
+  height: 196px;
+  background: url("img/img-requirements-1.jpg");
+  object-fit: contain;
+}
+
+.img_requirements_1:hover {
+  background: url("img/img-requirements-1@2x.jpg");
+}
+
+.img_requirements_2 {
+  position: absolute;
+  float: left;
+  left: 39.58%;
+  width: 20.83%;
+  height: 196px;
+  background: url("img/img-requirements-2.jpg");
+  object-fit: contain;
+}
+
+.img_requirements_2:hover {
+  background: url("img/img-requirements-2@2x.jpg");
+}
+
+.img_requirements_3 {
+  position: absolute;
+  float: left;
+  left: 13.19%;
+  width: 20.83%;
+  height: 196px;
+  background: url("img/img-requirements-3.jpg");
+  object-fit: contain;
+}
+
+.img_requirements_3:hover {
+  background: url("img/img-requirements-3@2x.jpg");
+}
+
+.What-you-should-have-image-head {
+  position: absolute;
+  top: 1313px;
+  width:100%;
+  height:24px;
+}
+
+.Attention-to-detail {
+  float: left;
+  position:absolute;
+  left: 13.19%;
+  width: 20.83%;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #27ad6c;
+  cursor: pointer;
+}
+
+.Attention-to-detail:hover {
+  font-size: 1.5vw;
+}
+
+.Frontend-tech-knowle {
+  float: left;
+  position:absolute;
+  left: 39.58%;
+  width: 20.83%;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #27ad6c;
+  cursor: pointer;
+}
+
+.Frontend-tech-knowle:hover {
+  font-size: 1.5vw
+}
+
+.Love-for-technology {
+  float: left;
+  position:absolute;
+  left: 65.97%;
+  width: 20.83%;
+  height: 24px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #27ad6c;
+  cursor: pointer;
+}
+
+.Love-for-technology:hover {
+  font-size: 1.5vw;
+}
+
+.What-you-should-have-image-content {
+  position: absolute;
+  top: 1347px;
+  width: 100%;
+  height: 88px;
+}
+
+.We-look-for-attentio {
+  float: left;
+  position: absolute;
+  left: 13.194% ;
+  width: 20.833%;
+  height: 66px;
+  opacity: 0.78;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.You-must-be-equipped {
+  float: left;
+  position: absolute;
+  left: 39.583%;
+  width: 20.833%;
+  height: 88px;
+  opacity: 0.78;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.We-eat-sleep-and-br {
+  float:left;
+  position:absolute;
+  left: 65.972%;
+  width: 20.833%;
+  height: 44px;
+  opacity: 0.78;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.separator_vertical {
+  position:absolute;
+  top: 1593px;
+  left: 50%;
+  width: 1px;
+  height: 345px;
+  background-color: #88c542;
+}
+
+.Resources {
+  position: absolute;
+  top: 1581px;
+  left: 8.333%;
+  width: 20.764%;
+  height: 63px;
+  font-family: Roboto;
+  font-size: 3.333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.Latest-from-frontend {
+  position: absolute;
+  top: 1581px;
+  left: 58.333%;
+  width: 32%;
+  height: 63px;
+  font-family: Roboto;
+  font-size: 3.333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.separator_3 {
+  position: absolute;
+  top: 1715px;
+  left: 8.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.separator_2 {
+  position: absolute;
+  top: 1795px;
+  left: 8.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.separator_1 {
+  position: absolute;
+  top: 1880px;
+  left: 8.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.separator_6 {
+  position: absolute;
+  top: 1715px;
+  left: 58.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.separator_5 {
+  position: absolute;
+  top: 1795px;
+  left: 58.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.separator_4 {
+  position: absolute;
+  top: 1880px;
+  left: 58.33%;
+  width: 33.33%;
+  height: 1px;
+  opacity: 0.2;
+  background-color: #88c542;
+}
+
+.globe{
+  position: absolute;
+  left: 8.33%;
+  width: 1.66%;
+  height: 24px;
+  object-fit: contain;
+}
+
+
+
+.Designer-News {
+  position:absolute;
+  top: 1667px;
+  left: 10.417%;
+  color: #27ad6c;
+  width: 20%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.Smashing-Magazine {
+  position:absolute;
+  top: 1748px;
+  left: 10.417%;
+  color: #27ad6c;
+  width: 20%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.Frontend-Front {
+  position:absolute;
+  top: 1828px;
+  left: 10.417%;
+  color: #27ad6c;
+  width: 20%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.View-all-Resources {
+  position:absolute;
+  top: 1911px;
+  left: 8.333%;
+  color: #27ad6c;
+  width: 20%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.JavaScript-Performan {
+  position:absolute;
+  top: 1667px;
+  left: 58.333%;
+  color: #27ad6c;
+  width: 35%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.Designing-a-dashboar {
+  position:absolute;
+  top: 1748px;
+  left: 58.333%;
+  color: #27ad6c;
+  width: 35%;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.JSRobot-Learn-to-c {
+  position:absolute;
+  top: 1828px;
+  left: 58.333%;
+  color: #27ad6c;
+  width: 35%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.View-all-Updates {
+  position:absolute;
+  top: 1911px;
+  left: 58.333%;
+  color: #27ad6c;
+  width: 35%;
+  height: 21px;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  cursor: pointer;
+}
+
+.Designer-News:hover, .Smashing-Magazine:hover, .Frontend-Front:hover, .View-all-Resources:hover,.JavaScript-Performan:hover {
+  font-size: 1.5vw;
+}
+
+.Designing-a-dashboar:hover, .JSRobot-Learn-to-c:hover, .View-all-Updates:hover {
+  font-size: 1.5vw;
+}
+
+.-hours-ago {
+  position:absolute;
+  top: 1690px;
+  left: 58.333%;
+  width: 6.320%;
+  height: 18px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 0.903vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.-November-2017 {
+  position:absolute;
+  left: 58.33%;
+  width: 8.542%;
+  height: 18px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 0.903vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #9b9b9b;
+}
+
+.separator_line {
+  width: 8.512%;
+  height: 1px;
+  background-color: #88c542;
+}
+
+.ic_separator_frontend-ninja {
+  position: absolute;
+  top: 2059px;
+  left: 48.333%;
+  width: 3.472%;
+  height: 48px;
+  object-fit: contain;
+}
+
+.Some-random-food-pho {
+  position: absolute;
+  top: 2218px;
+  left: 30.034%;
+  width: 45%;
+  height: 96px;
+  font-family: Roboto;
+  font-size: 3.333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}
+
+.Just-because-__ {
+  position:absolute;
+  top: 66px;
+  left: 45.065%;
+  width: 25%;
+  height: 20px;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #9b9b9b;
+}
+.Just-because-__ .text-style-1 {
+  font-family: PingFangSC;
+  font-style: normal;
+}
+
+.img_food-photos_6 {
+  position:absolute;
+  top:2335px;
+  left:0%;
+  width: 33.333%;
+  height: 400px;
+  background: url("img/img-food-photos-6.jpg");
+  object-fit: contain;
+}
+
+.img_food-photos_2 {
+  position:absolute;
+  top:2335px;
+  left:33.333%;
+  width: 33.333%;
+  height: 400px;
+  background: url("img/img-food-photos-2.jpg");
+  object-fit: contain;
+}
+
+.img_food-photos_4 {
+  position: absolute;
+  top: 2335px;
+  left: 66.666%;
+  width: 33.334%;
+  height: 400px;
+  background: url("img/img-food-photos-4.jpg");
+  object-fit: contain;
+}
+
+.img_food-photos_5 {
+  position: absolute;
+  top: 2735px;
+  left: 0%;
+  width: 33.333%;
+  height: 400px;
+  background: url("img/img-food-photos-5.jpg");
+  object-fit: contain;
+}
+
+.img_food-photos_1 {
+  position: absolute;
+  top: 2735px;
+  left: 33.333%;
+  width: 33.333%;
+  height: 400px;
+  background: url("img/img-food-photos-1.jpg");
+  object-fit: contain;
+}
+
+.img_food-photos_3 {
+  position: absolute;
+  top: 2735px;
+  left: 66.666%;
+  width: 33.334%;
+  height: 400px;
+  background: url("img/img-food-photos-3.jpg");
+  object-fit: contain;
+}
+
+.what-we-provide_bg {
+  position: absolute;
+  top: 3135px;
+  left: 0%;
+  width: 100%;
+  height: 1147px;
+  background-color: #423633;
+}
+
+.What-we-provide {
+  position: absolute;
+  top: 145px;
+  left: 37.673%;
+  width: 25%;
+  height: 96px;
+  font-family: Roboto;
+  font-size: 3.333vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.Tailored-objectives {
+  position: absolute;
+  top: 269px;
+  left: 17.3611%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Support-from-senior {
+  position: absolute;
+  top: 269px;
+  left: 42.986%;
+  width: 19%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.learning-environment {
+  position: absolute;
+  top: 269px;
+  left: 70.139%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Delicious-lunch {
+  position: absolute;
+  top: 456px;
+  left: 17.361%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.sti {
+  position: absolute;
+  top: 456px;
+  left: 42.7083%;
+  width: 19%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Five-working-week {
+  position: absolute;
+  top: 456px;
+  left: 69.930%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Flexible-time-possib {
+  position: absolute;
+  top: 643px;
+  left: 17.361%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Full-timer-possibili {
+  position: absolute;
+  top: 643px;
+  left: 42.708%;
+  width: 17%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Socials-retreats-t {
+  position: absolute;
+  top: 643px;
+  left: 69.931%;
+  width: 22%;
+  height: 26px;
+  font-family: Roboto;
+  font-size: 1.250vw;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.44;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.A-small-river-named {
+  position: absolute;
+  width: 20%;
+  height: 72px;
+  opacity: 0.5;
+  font-family: Roboto;
+  font-size: 1.111vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.ic_tailored {
+  position: absolute;
+  top: 267px;
+  left: 12.431%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_senior-team {
+  position: absolute;
+  top: 266px;
+  left: 38.542%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_learning {
+  position: absolute;
+  top: 268px;
+  left: 65.694%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_lunch {
+  position: absolute;
+  top: 456px;
+  left: 12.083%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_travel {
+  position: absolute;
+  top: 458px;
+  left: 38.142%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_workweek {
+  position: absolute;
+  top: 460px;
+  left: 65.225%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_time {
+  position: absolute;
+  top: 648px;
+  left: 12%;
+  width: 4.167%;
+  height: 60px;
+  object-fit: contain;
+}
+
+.ic_full-time {
+  position: absolute;
+  top: 640px;
+  left: 38.1%;
+  width: 4.167%;
+  height: 61px;
+  object-fit: contain;
+}
+
+.ic_retreats {
+  position: absolute;
+  top: 646px;
+  left: 65.278%;
+  width: 4.236%;
+  height: 61px;
+  object-fit: contain;
+}
+
+.logo_frontend-ninja {
+  position: absolute;
+  top: 1041px;
+  left: 47.986%;
+  width: 3.542%;
+  height: 48px;
+  object-fit: contain;
+  opacity: 0.3;
+}
+
+.footer_bg {
+  position: absolute;
+  top: 4282px;
+  left: 0%;
+  width: 100%;
+  height: 70px;
+  background-color: #333333;
+}
+
+.-Copyright-2017 {
+  position: absolute;
+  top: 27px;
+  left: 4.167%;
+  width: 10%;
+  height: 19px;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+
+.Home-About-Contact {
+  position: absolute;
+  top: 30px;
+  width: 17%;
+  height: 16px;
+  font-family: Roboto;
+  font-size: 0.972vw;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+  cursor: pointer;
+}
